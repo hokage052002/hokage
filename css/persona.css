@@ -1,0 +1,100 @@
+body{
+	background-color: grey;
+	/*background-image: url() no-repeat;*/
+	background-image: cover;
+	font-family: arial;
+	
+}
+
+nav{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	background-color: white;
+	opacity: .6px;
+
+
+}
+
+ul{ 
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+
+ }
+
+ ul li{
+
+ 	text-align: center;
+ 	text-decoration: none;
+
+ }
+
+ ul li a{
+
+ 		padding: 10px 15px;
+		border-radius: 10px;
+		border: none;
+		font-weight: bold;
+		/*font-family: cursive;*/
+		float: left;
+		text-decoration: none;
+		text-align: center;
+
+
+  }
+
+ ul li a:hover {
+ 	background-color: yellow;
+ 	text-decoration: none;
+ 	
+
+ }
+
+ .edit{
+
+ 	display: none;
+ }
+
+ ul li:hover ul li a{
+ 	display: inline-block;
+ }
+
+ .vlog{
+
+ 	background-color: teal;
+	/*background-image: url() no-repeat;*/
+	background-image: cover;
+	font-family: arial;
+ }
+
+ .contact{
+
+ 	background-color: brown;
+	/*background-image: url() no-repeat;*/
+	background-image: cover;
+	font-family: arial;
+ }
+
+ .about{
+
+ 	background-color: chocolate;
+	/*background-image: url() no-repeat;*/
+	background-image: cover;
+	font-family: arial;
+ }
+
+ .services{
+
+ 	background-color: red;
+	/*background-image: url() no-repeat;*/
+	background-image: cover;
+	font-family: arial;
+ }
+
+ /*footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;}*/
